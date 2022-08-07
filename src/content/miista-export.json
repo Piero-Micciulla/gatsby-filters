@@ -1,7 +1,7 @@
-{
-  "data": {
-    "allContentfulProductPage": {
-      "edges": [
+
+
+
+[
         {
           "node": {
             "name": "Nikki Lime Leather Sandals",
@@ -10672,6 +10672,6 @@
           }
         }
       ]
-    }
-  }
-}
+
+  
+

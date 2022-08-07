@@ -1,6 +1,16 @@
-.card-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 2rem 5rem;
-    gap: 2rem;
+.button-container{
+    width: 100vw;
+    height: 100vh;
+    background: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+        padding: 1rem 2rem;
+        background: black;
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+    }
 }

@@ -1,0 +1,29 @@
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2rem 5rem;
+    gap: 2rem;
+}
+
+.pagination-buttons-container {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+
+    a {
+        padding: 1rem 2rem;
+        background: black;
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        margin: 2rem;
+        height: 1rem;
+    }
+
+    .disabled {
+        pointer-events: none;
+        opacity: 0.5;
+    }
+}
+
