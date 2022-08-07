@@ -2,7 +2,6 @@ import * as React from "react"
 import './card.scss'
 
 export default function Card({ item }) {
-    console.log(item.name)
     return (
         <>
             <div className="card">

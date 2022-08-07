@@ -47,6 +47,7 @@ exports.createPages = async ({ graphql, actions }) => {
   const items = result.data.allMiistaExportJson.edges;
   const itemsPerPage = 12;
   const numPages = Math.ceil(items.length / itemsPerPage);
+
   Array.from({ length: numPages }).forEach((_, i) => {
     createPage({
       path: i === 0 ? `/items` : `/items/${i + 1}`,
